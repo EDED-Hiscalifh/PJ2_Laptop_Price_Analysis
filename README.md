@@ -61,5 +61,15 @@ The best model is XGBRegressor with 0.833% Accuracy(Model is stored in 'laptop_p
 In this project, I performs predicting price of laptops from its features. I can get infortmation about 
 Web scraping using selenium and bs4 module and make model file using sklearn.externals.joblib method. 
 
+# 3. Project 2 : Time Comparison of Range Search Algorithms 
 
+In computer science, the range searching problem consists of processing a set S of object, in order to determine which objects from S intersect with a query object, called the range. For exmple, if S is a set of points corresponding to the coordinates of several cities, find the subset of cities within a give range of latitude and longitutdes. 
+
+The range searching problem and the data structure that solve it are a fundamental topic of computational geometry. Applications of the problem in areas such as GIS(geographical information systems), CAD(computer-aided design) and databases. 
+
+We can see various usecase of range search from various filed. In [Naver Shopping](https://search.shopping.naver.com/search/all?query=%EB%82%A8%EC%84%B1%EB%B3%B5&cat_id=&frm=NVSHATC) as an example, we can find products in proper budgets.
+    
+<img src="Img/Naver_shopping.png" width="1000">
+
+The goal of this project is comparing various ways(Full search, Binary Search, CSV Index) of executing range search from its execution time.
 
